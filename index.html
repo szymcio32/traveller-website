@@ -27,36 +27,38 @@
         </ul>
     </nav>
     <main id="posts">
-        <div class="article-container">
-            <article>
-                <h2>First post title</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor convallis arcu. Fusce mollis ante ut
-                    posuere eleifend. Fusce laoreet pellentesque quam, eu elementum augue elementum ac. Sed pulvinar lorem
-                    nec erat dapibus tincidunt. Aliquam pellentesque vel lectus sit amet aliquam. Sed malesuada iaculis odio
-                    quis aliquet. Proin faucibus velit et pretium lacinia. Sed quis diam non urna feugiat pharetra id eget
-                    nisl. Nunc eget consequat dolor, ut rutrum erat. Phasellus dignissim aliquam mauris sit amet lobortis.
-                    Aenean at faucibus sapien. Maecenas ornare faucibus diam a pulvinar. Proin ultrices justo fringilla,
-                    viverra neque et, gravida felis. Fusce congue quam non arcu porta porttitor.</p>
-            </article>
-            <ul class="images">
-                <li><img src="img/nature.jpg" alt="nature"></li>
-            </ul>
-        </div>
+        <div class="wrapper">
+            <div class="article-container">
+                <article>
+                    <h2>First post title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor convallis arcu. Fusce mollis ante ut
+                        posuere eleifend. Fusce laoreet pellentesque quam, eu elementum augue elementum ac. Sed pulvinar lorem
+                        nec erat dapibus tincidunt. Aliquam pellentesque vel lectus sit amet aliquam. Sed malesuada iaculis odio
+                        quis aliquet. Proin faucibus velit et pretium lacinia. Sed quis diam non urna feugiat pharetra id eget
+                        nisl. Nunc eget consequat dolor, ut rutrum erat. Phasellus dignissim aliquam mauris sit amet lobortis.
+                        Aenean at faucibus sapien. Maecenas ornare faucibus diam a pulvinar. Proin ultrices justo fringilla,
+                        viverra neque et, gravida felis. Fusce congue quam non arcu porta porttitor.</p>
+                </article>
+                <ul class="images">
+                    <li><img src="img/nature.jpg" alt="nature"></li>
+                </ul>
+            </div>
 
-        <div id="join" class="article-container">
-            <article>
-                <h2>Second post title</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor convallis arcu. Fusce mollis ante ut
-                    posuere eleifend. Fusce laoreet pellentesque quam, eu elementum augue elementum ac. Sed pulvinar lorem
-                    nec erat dapibus tincidunt. Aliquam pellentesque vel lectus sit amet aliquam. Sed malesuada iaculis odio
-                    quis aliquet. Proin faucibus velit et pretium lacinia. Sed quis diam non urna feugiat pharetra id eget
-                    nisl. Nunc eget consequat dolor, ut rutrum erat. Phasellus dignissim aliquam mauris sit amet lobortis.
-                    Aenean at faucibus sapien. Maecenas ornare faucibus diam a pulvinar. Proin ultrices justo fringilla,
-                    viverra neque et, gravida felis. Fusce congue quam non arcu porta porttitor.</p>
-            </article>
-            <ul class="images">
-                <li><img src="img/bird.jpg" alt="bird"></li>
-            </ul>
+            <div class="article-container">
+                <article>
+                    <h2>Second post title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor convallis arcu. Fusce mollis ante ut
+                        posuere eleifend. Fusce laoreet pellentesque quam, eu elementum augue elementum ac. Sed pulvinar lorem
+                        nec erat dapibus tincidunt. Aliquam pellentesque vel lectus sit amet aliquam. Sed malesuada iaculis odio
+                        quis aliquet. Proin faucibus velit et pretium lacinia. Sed quis diam non urna feugiat pharetra id eget
+                        nisl. Nunc eget consequat dolor, ut rutrum erat. Phasellus dignissim aliquam mauris sit amet lobortis.
+                        Aenean at faucibus sapien. Maecenas ornare faucibus diam a pulvinar. Proin ultrices justo fringilla,
+                        viverra neque et, gravida felis. Fusce congue quam non arcu porta porttitor.</p>
+                </article>
+                <ul class="images">
+                    <li><img src="img/bird.jpg" alt="bird"></li>
+                </ul>
+            </div>
         </div>
     </main>
     <section id="newsletter" class="newsletter">
@@ -69,11 +71,11 @@
     <section id="gallery" class="gallery">
         <h2>My Gallery</h2>
         <div class="images">
-            <img src="img/landscape.jpg" alt="landscape">
-            <img src="img/mountain.jpg" alt="mountain">
-            <img src="img/hyacinth.jpg" alt="hyacinth">
-            <img src="img/gerbera.jpg" alt="gerbera">
-            <img src="img/giraffe.jpg" alt="giraffe">
+            <a href="https://i.ibb.co/mXsmnhS/landscape.jpg" class="big"><img src="https://i.ibb.co/mXsmnhS/landscape.jpg" alt="landscape"></a>
+            <a href="https://i.ibb.co/ZNzS3Y1/mountain.jpg"><img src="https://i.ibb.co/ZNzS3Y1/mountain.jpg" alt="mountain"></a>
+            <a href="https://i.ibb.co/FzNY1Cr/hyacinth.jpg"><img src="https://i.ibb.co/FzNY1Cr/hyacinth.jpg" alt="hyacinth"></a>
+            <a href="https://i.ibb.co/3zkyqYk/gerbera.jpg"><img src="https://i.ibb.co/3zkyqYk/gerbera.jpg" alt="gerbera"></a>
+            <a href="https://i.ibb.co/Dk1SGc7/giraffe.jpg"><img src="https://i.ibb.co/Dk1SGc7/giraffe.jpg" alt="giraffe"></a>
         </div>
     </section>
     <section id="contact" class="contact">
@@ -88,5 +90,14 @@
     <footer>
         <p>Copyright 2019 Website Traveller</p>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(function() {
+            const $images = $('.images a').simpleLightbox();
+          });
+    </script>
+
 </body>
 </html>
